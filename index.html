@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive CSS & JS Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Bringing Web Pages to Life 🚀</h1>
+
+  <!-- Part 1: CSS-only animations -->
+  <button class="fancy-btn">Hover Me</button>
+  <div class="fade-box">I fade in on load!</div>
+
+  <!-- Part 2 & 3: JavaScript triggered -->
+  <div class="interactive-area">
+    <button id="animateBoxBtn">Animate Box</button>
+    <div id="box" class="box"></div>
+  </div>
+
+  <div class="interactive-area">
+    <button id="flipCardBtn">Flip Card</button>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">Front</div>
+        <div class="card-back">Back</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="interactive-area">
+    <button id="toggleModalBtn">Toggle Modal</button>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <p>Hello, I slide in and fade out!</p>
+        <button id="closeModalBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
